@@ -13,10 +13,11 @@
     "lex:gen-md": "lex gen-md ./packages/lexicons/generated/md ./packages/lexicons/src/*",
     "db:studio": "drizzle-kit studio",
     "db:migrate": "drizzle-kit migrate",
+    "db:update": "drizzle-kit generate",
     "db:seed": "drizzle-kit seed"
   },
   "devDependencies": {
-    "turbo": "^2.3.0"
+    "turbo": "^2.3.1"
   },
   "engines": {
     "node": ">=21.0.0"
